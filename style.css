@@ -58,6 +58,10 @@ nav button{
     transform: translate(-50%,-50%);
     text-align: center;
  margin-top: 100px;
+    -webkit-transform: translate(-50%,-50%);
+ -moz-transform: translate(-50%,-50%);
+ -ms-transform: translate(-50%,-50%);
+ -o-transform: translate(-50%,-50%);
 }
 .header-content h1{
     font-size: 60px;
@@ -243,6 +247,10 @@ margin-bottom: 10px;
         position: unset;
         transition: none;
         padding-top:150px;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
     }
     .header-content h1{
         font-size:30px
